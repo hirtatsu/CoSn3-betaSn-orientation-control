@@ -1,0 +1,54 @@
+{
+  "face": "(321)",
+  "n_atoms_per_term": 864,
+  "method": "PFP/PBE, FrechetCellFilter mask=[T,T,F,F,F,T] (in-plane cell + atoms)",
+  "fmax_target": 0.015,
+  "mu_alpha_eV_per_atom": -3.712867,
+  "terminations": [
+    {
+      "termination": 0,
+      "n_atoms": 864,
+      "area_old_A2": 811.6205203564367,
+      "area_new_A2": 802.6531095012948,
+      "area_change_pct": -1.104877295512898,
+      "E_old_eV": -3114.123992902179,
+      "E_new_eV": -3130.6273247606046,
+      "gamma_Jm2": 0.7713908489465088,
+      "n_steps": 161,
+      "converged": true,
+      "fmax_final": 0.010895498581021457,
+      "wall_seconds": 632.5090219974518
+    },
+    {
+      "termination": 1,
+      "n_atoms": 864,
+      "area_old_A2": 811.6205203564367,
+      "area_new_A2": 801.0296635659552,
+      "area_change_pct": -1.304902540639362,
+      "E_old_eV": -3111.4194844400436,
+      "E_new_eV": -3128.214162558228,
+      "gamma_Jm2": 0.7970876149316096,
+      "n_steps": 155,
+      "converged": true,
+      "fmax_final": 0.013432652437501247,
+      "wall_seconds": 602.3425054550171
+    },
+    {
+      "termination": 2,
+      "n_atoms": 864,
+      "area_old_A2": 811.6205203564367,
+      "area_new_A2": 799.8365767189014,
+      "area_change_pct": -1.451903117525938,
+      "E_old_eV": -3114.9722280795404,
+      "E_new_eV": -3134.945099816811,
+      "gamma_Jm2": 0.7308618898327705,
+      "n_steps": 179,
+      "converged": true,
+      "fmax_final": 0.01099377021193959,
+      "wall_seconds": 729.8491785526276
+    }
+  ],
+  "gamma_min_Jm2": 0.7308618898327705,
+  "gamma_max_Jm2": 0.7970876149316096,
+  "gamma_ref_Ma2020": 1.09
+}

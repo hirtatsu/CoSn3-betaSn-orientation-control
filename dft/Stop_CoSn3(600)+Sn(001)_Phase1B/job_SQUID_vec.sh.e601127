@@ -1,0 +1,345 @@
+
+%NQSV(INFO): ------- Output from job:0000 -------
+
+%NQSV(INFO): ------- Output from job:0001 -------
+[64<-292] [global 64<-292] recv desc error
+[50->290] [global 50->290] send desc error
+[64] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009f3410, len 24 wc_flags 0 qp_num 3075
+[50] wc: opcode 0, status=11 (remote operation error), wr_id=0x6010009f9a10, len 24 wc_flags 0 qp_num 190
+[50] v 0x6010009f9a10 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009f9a98 next (nil)
+[66<-292] [global 66<-292] recv desc error
+[64] v 0x6010009f3410 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009f3498 next (nil)
+[50] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 12
+[66] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009edc10, len 24 wc_flags 0 qp_num 3169
+[64] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=292
+ errno 2
+[66] v 0x6010009edc10 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009edc98 next (nil)
+[66] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=292
+ errno 2
+[42<-292] [global 42<-292] recv desc error
+[57<-292] [global 57<-292] recv desc error
+[42] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009ff410, len 160 wc_flags 0 qp_num 2327
+[59->291] [global 59->291] send desc error
+[76<-290] [global 76<-290] recv desc error
+[78<-291] [global 78<-291] recv desc error
+[47<-292] [global 47<-292] recv desc error
+[57] wc: opcode 128, status=11 (remote operation error), wr_id=0x61005bb2de00, len 24 wc_flags 0 qp_num 2948
+[59] wc: opcode 0, status=11 (remote operation error), wr_id=0x6010009fb010, len 24 wc_flags 0 qp_num 3024
+[78] wc: opcode 128, status=11 (remote operation error), wr_id=0x601000e6ca00, len 160 wc_flags 0 qp_num 3627
+[47] wc: opcode 128, status=11 (remote operation error), wr_id=0x601035d3fa00, len 48 wc_flags 0 qp_num 2563
+[42] v 0x6010009ff410 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009ff498 next (nil)
+[57] v 0x61005bb2de00 send flag 2 length 1968 opcode 2 num_sge 1 sg_list 0x61005bb2de88 next (nil)
+[76] wc: opcode 128, status=11 (remote operation error), wr_id=0x601000b61800, len 160 wc_flags 0 qp_num 3601
+[55<-294] [global 55<-294] recv desc error
+[58<-292] [global 58<-292] recv desc error
+[59] v 0x6010009fb010 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009fb098 next (nil)
+[47] v 0x601035d3fa00 send flag 2 length 1200 opcode 2 num_sge 1 sg_list 0x601035d3fa88 next (nil)
+[76] v 0x601000b61800 send flag 2 length 4480 opcode 2 num_sge 1 sg_list 0x601000b61888 next (nil)
+[78] v 0x601000e6ca00 send flag 2 length 5488 opcode 2 num_sge 1 sg_list 0x601000e6ca88 next (nil)
+[42] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=292
+ errno 12
+[59] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=291
+ errno 12
+[57] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=292
+ errno 12
+[55] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009e7210, len 24 wc_flags 0 qp_num 2807
+[58] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009e9010, len 24 wc_flags 0 qp_num 2972
+[47] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=292
+ errno 2
+[76] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 12
+[78] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=291
+ errno 12
+[58] v 0x6010009e9010 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009e9098 next (nil)
+[55] v 0x6010009e7210 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009e7298 next (nil)
+[58] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=292
+ errno 2
+[55] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=294
+ errno 12
+[74<-294] [global 74<-294] recv desc error
+[74] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009ed410, len 160 wc_flags 0 qp_num 3358
+[74] v 0x6010009ed410 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009ed498 next (nil)
+[40<-292] [global 40<-292] recv desc error
+[74] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=294
+ errno 12
+[40] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009f1410, len 8752 wc_flags 0 qp_num 535
+[75<-290] [global 75<-290] recv desc error
+[75] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009f1c10, len 160 wc_flags 0 qp_num 3567
+[75] v 0x6010009f1c10 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009f1c98 next (nil)
+[75] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 12
+[65<-294] [global 65<-294] recv desc error
+[40] v 0x6010009f1410 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009f1498 next (nil)
+[65] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009f1e10, len 24 wc_flags 0 qp_num 3035
+[65] v 0x6010009f1e10 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009f1e98 next (nil)
+[65] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=294
+ errno 12
+[40] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=292
+ errno 12
+vec0115: mpid(1): process_comm abort; connection down to socket s=212
+
+MPI process (universe = 0, rank = 65) terminated by exit(252)
+vec0115: mpid(1): Program terminated unexpectedly
+[77] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[77] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0002 -------
+[95->291] [global 95->291] send desc error
+[95] wc: opcode 0, status=11 (remote operation error), wr_id=0x601000e74a00, len 24 wc_flags 0 qp_num 4839
+[95] v 0x601000e74a00 send flag 2 length 9312 opcode 2 num_sge 1 sg_list 0x601000e74a88 next (nil)
+[95] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=291
+ errno 12
+[93<-290] [global 93<-290] recv desc error
+[97<-290] [global 97<-290] recv desc error
+[97] wc: opcode 128, status=11 (remote operation error), wr_id=0x601000b4a200, len 24 wc_flags 0 qp_num 4922
+[97] v 0x601000b4a200 send flag 2 length 4160 opcode 2 num_sge 1 sg_list 0x601000b4a288 next (nil)
+[97] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 2
+[115<-290] [global 115<-290] recv desc error
+[115] wc: opcode 128, status=11 (remote operation error), wr_id=0x601000a00e10, len 160 wc_flags 0 qp_num 5514
+[115] v 0x601000a00e10 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x601000a00e98 next (nil)
+[115] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 12
+[113<-294] [global 113<-294] recv desc error
+[92<-293] [global 92<-293] recv desc error
+[92] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009f5610, len 24 wc_flags 0 qp_num 4571
+[93] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010329e1a00, len 24 wc_flags 0 qp_num 4804
+[93] v 0x6010329e1a00 send flag 2 length 944 opcode 2 num_sge 1 sg_list 0x6010329e1a88 next (nil)
+[93] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 2
+[114<-293] [global 114<-293] recv desc error
+[111<-292] [global 111<-292] recv desc error
+[114] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009ece10, len 24 wc_flags 0 qp_num 5442
+[111] wc: opcode 128, status=11 (remote operation error), wr_id=0x61005bb33a00, len 24 wc_flags 0 qp_num 5320
+[114] v 0x6010009ece10 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009ece98 next (nil)
+[113] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009f9a10, len 24 wc_flags 0 qp_num 5317
+[106<-290] [global 106<-290] recv desc error
+[111] v 0x61005bb33a00 send flag 2 length 928 opcode 2 num_sge 1 sg_list 0x61005bb33a88 next (nil)
+[85->290] [global 85->290] write desc error
+[106] wc: opcode 128, status=11 (remote operation error), wr_id=0x601000b56400, len 24 wc_flags 0 qp_num 5179
+[113] v 0x6010009f9a10 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009f9a98 next (nil)
+[114] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=293
+ errno 2
+[85] wc: opcode 1, status=11 (remote operation error), wr_id=0x6010009f9e10, len 160 wc_flags 0 qp_num 4078
+[111] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=292
+ errno 12
+[106] v 0x601000b56400 send flag 2 length 976 opcode 2 num_sge 1 sg_list 0x601000b56488 next (nil)
+[113] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=294
+ errno 2
+[85] v 0x6010009f9e10 send flag 10 length 128 opcode 2 num_sge 1 sg_list 0x6010009f9e98 next (nil)
+[106] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 2
+[85] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 12
+vec0116: mpid(2): process_comm abort; connection down to socket s=216
+
+MPI process (universe = 0, rank = 113) terminated by exit(252)
+vec0116: mpid(2): Program terminated unexpectedly
+[103] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[103] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0003 -------
+[120<-293] [global 120<-293] recv desc error
+[120] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009f6e10, len 160 wc_flags 0 qp_num 5619
+[120] v 0x6010009f6e10 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009f6e98 next (nil)
+[120] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=293
+ errno 12
+[122<-290] [global 122<-290] recv desc error
+[124<-291] [global 124<-291] recv desc error
+[122] wc: opcode 128, status=11 (remote operation error), wr_id=0x601000e6a600, len 160 wc_flags 0 qp_num 5870
+[124] wc: opcode 128, status=11 (remote operation error), wr_id=0x6010009e8210, len 160 wc_flags 0 qp_num 5892
+[124] v 0x6010009e8210 send flag 10 length 160 opcode 2 num_sge 1 sg_list 0x6010009e8298 next (nil)
+[122] v 0x601000e6a600 send flag 2 length 7248 opcode 2 num_sge 1 sg_list 0x601000e6a688 next (nil)
+[124] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=291
+ errno 12
+[122] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 2
+vec0202: mpid(3): process_comm abort; connection down to socket s=209
+
+MPI process (universe = 0, rank = 124) terminated by exit(252)
+vec0202: mpid(3): Program terminated unexpectedly
+[154] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[150] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[154] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[149] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[150] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[149] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[136] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[125] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[136] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[139] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[125] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[134] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[147] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[147] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[134] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[140] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[139] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[141] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[140] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[141] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0004 -------
+vec0203: mpid(4): MPI execution terminated abnormally on remote node
+[177] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[169] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[177] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[169] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[179] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[190] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[190] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[189] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[189] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[179] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[160] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[160] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[191] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[191] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0005 -------
+[210->290] [global 210->290] send desc error
+[210] wc: opcode 0, status=11 (remote operation error), wr_id=0x6010009f4210, len 44 wc_flags 0 qp_num 182
+[210] v 0x6010009f4210 send flag 10 length 44 opcode 2 num_sge 1 sg_list 0x6010009f4298 next (nil)
+[210] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 2
+vec0111: mpid(5): process_comm abort; connection down to socket s=194
+
+MPI process (universe = 0, rank = 210) terminated by exit(252)
+vec0111: mpid(5): Program terminated unexpectedly
+[233] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[233] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[202] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[202] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[214] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[214] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[239] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[239] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0006 -------
+[250->290] [global 250->290] send desc error
+[250] wc: opcode 0, status=11 (remote operation error), wr_id=0x6010009f3810, len 44 wc_flags 0 qp_num 175
+[250] v 0x6010009f3810 send flag 10 length 44 opcode 2 num_sge 1 sg_list 0x6010009f3898 next (nil)
+[250] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 2
+[270->290] [global 270->290] send desc error
+[270] wc: opcode 0, status=11 (remote operation error), wr_id=0x6010009f4c10, len 44 wc_flags 0 qp_num 172
+[270] v 0x6010009f4c10 send flag 10 length 44 opcode 2 num_sge 1 sg_list 0x6010009f4c98 next (nil)
+[270] error_in_cqe: ibv_channel_manager.c:1849: [] Got completion with error 11, vendor code=0x89, dest rank=290
+ errno 12
+vec0108: mpid(6): process_comm abort; connection down to socket s=205
+
+MPI process (universe = 0, rank = 250) terminated by exit(252)
+vec0108: mpid(6): Program terminated unexpectedly
+[267] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[267] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[260] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[277] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[277] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[260] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[254] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[254] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0007 -------
+vec0114: mpid(7): MPI execution terminated abnormally on remote node
+Failed to communicate with VEOS
+ Failed to communicate with VEOS
+ Failed to communicate with VEOS
+ VE Node 2 is UNAVAILABLE
+VE Node 2 is UNAVAILABLE
+Failed to communicate with VEOS
+ VE Node 2 is UNAVAILABLE
+Failed to communicate with VEOS
+ VE Node 2 is UNAVAILABLE
+Failed to communicate with VEOS
+ VE Node 2 is UNAVAILABLE
+[319] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[304] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[297] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[304] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[284] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[284] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[297] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[283] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[283] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[319] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[305] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[306] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[299] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[299] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[305] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[306] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[285] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[285] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor

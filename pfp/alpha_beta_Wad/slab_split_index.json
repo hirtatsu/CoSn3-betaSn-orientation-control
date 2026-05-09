@@ -1,0 +1,212 @@
+{
+  "alpha600_beta100_term0": {
+    "tag": "alpha600_beta100",
+    "termination_idx": 0,
+    "termination": [
+      "Sn_Pmma_2",
+      "Sn_P4/mbm_4"
+    ],
+    "alpha_slab_cif": "alpha600_beta100_term0_alpha.cif",
+    "beta_slab_cif": "alpha600_beta100_term0_beta.cif",
+    "interface_cif": "alpha600_beta100_term0_interface.cif",
+    "n_alpha": 32,
+    "n_beta": 24,
+    "n_interface": 56,
+    "lattice_a": 6.2503869747625425,
+    "lattice_b": 6.259422813060086,
+    "Lz": 61.795246125843505,
+    "gamma": 89.9999271898165,
+    "match_area": 37.9570280893495,
+    "strain_a_pct": -5.1381196147470565,
+    "strain_b_pct": 2.272595439604137
+  },
+  "alpha600_beta100_term1": {
+    "tag": "alpha600_beta100",
+    "termination_idx": 1,
+    "termination": [
+      "Sn_Pmma_2",
+      "Co_P4/mmm_2"
+    ],
+    "alpha_slab_cif": "alpha600_beta100_term1_alpha.cif",
+    "beta_slab_cif": "alpha600_beta100_term1_beta.cif",
+    "interface_cif": "alpha600_beta100_term1_interface.cif",
+    "n_alpha": 32,
+    "n_beta": 24,
+    "n_interface": 56,
+    "lattice_a": 6.2503869747625425,
+    "lattice_b": 6.259422813060086,
+    "Lz": 63.26461727389405,
+    "gamma": 89.9999271898165,
+    "match_area": 37.9570280893495,
+    "strain_a_pct": -5.1381196147470565,
+    "strain_b_pct": 2.272595439604137
+  },
+  "alpha600_beta001_term0": {
+    "tag": "alpha600_beta001",
+    "termination_idx": 0,
+    "termination": [
+      "Sn_P4/mmm_1",
+      "Sn_P4/mbm_4"
+    ],
+    "alpha_slab_cif": "alpha600_beta001_term0_alpha.cif",
+    "beta_slab_cif": "alpha600_beta001_term0_beta.cif",
+    "interface_cif": "alpha600_beta001_term0_interface.cif",
+    "n_alpha": 128,
+    "n_beta": 100,
+    "n_interface": 228,
+    "lattice_a": 12.500773949525085,
+    "lattice_b": 12.518845626120171,
+    "Lz": 62.17613600730185,
+    "gamma": 89.9999271898165,
+    "match_area": 175.77911245827593,
+    "strain_a_pct": 6.058804864047993,
+    "strain_b_pct": 5.905704222655791
+  },
+  "alpha600_beta001_term1": {
+    "tag": "alpha600_beta001",
+    "termination_idx": 1,
+    "termination": [
+      "Sn_P4/mmm_1",
+      "Co_P4/mmm_2"
+    ],
+    "alpha_slab_cif": "alpha600_beta001_term1_alpha.cif",
+    "beta_slab_cif": "alpha600_beta001_term1_beta.cif",
+    "interface_cif": "alpha600_beta001_term1_interface.cif",
+    "n_alpha": 128,
+    "n_beta": 100,
+    "n_interface": 228,
+    "lattice_a": 12.500773949525085,
+    "lattice_b": 12.518845626120171,
+    "Lz": 63.6455071553524,
+    "gamma": 89.9999271898165,
+    "match_area": 175.77911245827593,
+    "strain_a_pct": 6.058804864047993,
+    "strain_b_pct": 5.905704222655791
+  },
+  "alpha600_beta110_term0": {
+    "tag": "alpha600_beta110",
+    "termination_idx": 0,
+    "termination": [
+      "Sn_Cmmm_1",
+      "Sn_P4/mbm_4"
+    ],
+    "alpha_slab_cif": "alpha600_beta110_term0_alpha.cif",
+    "beta_slab_cif": "alpha600_beta110_term0_beta.cif",
+    "interface_cif": "alpha600_beta110_term0_interface.cif",
+    "n_alpha": 128,
+    "n_beta": 96,
+    "n_interface": 224,
+    "lattice_a": 6.259422813060086,
+    "lattice_b": 25.00154789905017,
+    "Lz": 61.64626676533456,
+    "gamma": 89.9999271898165,
+    "match_area": 161.0380300700456,
+    "strain_a_pct": 2.272595439604137,
+    "strain_b_pct": 0.6162173051417632
+  },
+  "alpha600_beta110_term1": {
+    "tag": "alpha600_beta110",
+    "termination_idx": 1,
+    "termination": [
+      "Sn_Cmmm_1",
+      "Co_P4/mmm_2"
+    ],
+    "alpha_slab_cif": "alpha600_beta110_term1_alpha.cif",
+    "beta_slab_cif": "alpha600_beta110_term1_beta.cif",
+    "interface_cif": "alpha600_beta110_term1_interface.cif",
+    "n_alpha": 128,
+    "n_beta": 96,
+    "n_interface": 224,
+    "lattice_a": 6.259422813060086,
+    "lattice_b": 25.00154789905017,
+    "Lz": 63.11563791338511,
+    "gamma": 89.9999271898165,
+    "match_area": 161.0380300700456,
+    "strain_a_pct": 2.272595439604137,
+    "strain_b_pct": 0.6162173051417632
+  },
+  "alpha312_beta100_term0": {
+    "tag": "alpha312_beta100",
+    "termination_idx": 0,
+    "termination": [
+      "Sn_Pmma_2",
+      "Co2Sn3_P1_5"
+    ],
+    "alpha_slab_cif": "alpha312_beta100_term0_alpha.cif",
+    "beta_slab_cif": "alpha312_beta100_term0_beta.cif",
+    "interface_cif": "alpha312_beta100_term0_interface.cif",
+    "n_alpha": 96,
+    "n_beta": 84,
+    "n_interface": 180,
+    "lattice_a": 11.174143717766794,
+    "lattice_b": 12.812294993456232,
+    "Lz": 61.24152653119221,
+    "gamma": 70.99854002522258,
+    "match_area": 132.84959831272323,
+    "strain_a_pct": 0.9971623016510988,
+    "strain_b_pct": -4.132241650849663
+  },
+  "alpha312_beta001_term0": {
+    "tag": "alpha312_beta001",
+    "termination_idx": 0,
+    "termination": [
+      "Sn_P4/mmm_1",
+      "Co2Sn3_P1_5"
+    ],
+    "alpha_slab_cif": "alpha312_beta001_term0_alpha.cif",
+    "beta_slab_cif": "alpha312_beta001_term0_beta.cif",
+    "interface_cif": "alpha312_beta001_term0_interface.cif",
+    "n_alpha": 192,
+    "n_beta": 140,
+    "n_interface": 332,
+    "lattice_a": 13.99244918783934,
+    "lattice_b": 19.551065121241752,
+    "Lz": 61.62241641265055,
+    "gamma": 81.74184622884242,
+    "match_area": 246.0907574415863,
+    "strain_a_pct": -5.2476702584076715,
+    "strain_b_pct": -4.097880293483361
+  },
+  "alpha010_beta100_term0": {
+    "tag": "alpha010_beta100",
+    "termination_idx": 0,
+    "termination": [
+      "Sn_Pmma_2",
+      "Co_Cmmm_4"
+    ],
+    "alpha_slab_cif": "alpha010_beta100_term0_alpha.cif",
+    "beta_slab_cif": "alpha010_beta100_term0_beta.cif",
+    "interface_cif": "alpha010_beta100_term0_interface.cif",
+    "n_alpha": 96,
+    "n_beta": 72,
+    "n_interface": 168,
+    "lattice_a": 6.2503869747625425,
+    "lattice_b": 17.43548598480672,
+    "Lz": 65.05705389467538,
+    "gamma": 89.99996315505494,
+    "match_area": 113.87108426804848,
+    "strain_a_pct": 2.4204452668858205,
+    "strain_b_pct": 2.020120702940077
+  },
+  "alpha010_beta100_term1": {
+    "tag": "alpha010_beta100",
+    "termination_idx": 1,
+    "termination": [
+      "Sn_Pmma_2",
+      "Sn_Pma2_6"
+    ],
+    "alpha_slab_cif": "alpha010_beta100_term1_alpha.cif",
+    "beta_slab_cif": "alpha010_beta100_term1_beta.cif",
+    "interface_cif": "alpha010_beta100_term1_interface.cif",
+    "n_alpha": 96,
+    "n_beta": 72,
+    "n_interface": 168,
+    "lattice_a": 6.2503869747625425,
+    "lattice_b": 17.43548598480672,
+    "Lz": 65.30436564098098,
+    "gamma": 89.99996315505494,
+    "match_area": 113.87108426804848,
+    "strain_a_pct": 2.4204452668858205,
+    "strain_b_pct": 2.020120702940077
+  }
+}

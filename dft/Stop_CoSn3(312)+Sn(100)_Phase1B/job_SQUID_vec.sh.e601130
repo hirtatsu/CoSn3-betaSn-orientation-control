@@ -1,0 +1,272 @@
+
+%NQSV(INFO): ------- Output from job:0000 -------
+
+%NQSV(INFO): ------- Output from job:0001 -------
+vec0203: mpid(1): MPI execution terminated abnormally on remote node
+[57] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[63] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[41] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[42] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[63] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[41] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[42] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[51] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[51] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[46] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[53] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[50] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[46] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[53] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[50] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[76] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[76] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0002 -------
+vec0115: mpid(2): MPI execution terminated abnormally on remote node
+[114] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[112] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[82] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[114] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[112] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[117] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[96] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[117] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[99] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[96] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[99] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[87] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[88] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[87] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[89] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[88] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[85] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[89] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[85] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[102] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[102] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0003 -------
+vec0116: mpid(3): MPI execution terminated abnormally on remote node
+[135] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[150] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[153] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[131] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[130] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[131] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[153] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[135] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[150] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[130] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[121] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[159] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[121] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[159] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[127] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[128] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[127] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[128] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0004 -------
+vec0202: mpid(4): MPI execution terminated abnormally on remote node
+[199] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[181] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[181] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0005 -------
+vec0111: mpid(5): MPI execution terminated abnormally on remote node
+[200] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[200] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[206] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[206] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[205] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[225] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[239] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[226] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[205] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[221] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[221] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[225] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[226] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[239] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[224] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[235] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[222] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[224] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[233] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[222] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[233] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[235] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0006 -------
+vec0108: mpid(6): MPI execution terminated abnormally on remote node
+[257] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[257] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[241] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[241] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[244] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[244] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[261] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[261] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[265] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[245] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[265] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[245] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[268] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[268] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[247] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[248] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[249] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[248] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[246] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[247] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[249] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[246] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+
+%NQSV(INFO): ------- Output from job:0007 -------
+vec0211: mpid(7): MPI execution terminated abnormally on remote node
+[281] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[307] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[281] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[312] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[307] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[287] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[290] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[290] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[312] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[289] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[314] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[287] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[314] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[293] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[289] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[292] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+[283] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[293] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[283] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+[292] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor
+Error in send () called by mpisx_sendx: Bad file descriptor
+[298] mpisx_sendx: left (abnormally) (rc=-1), sock = 8 len 0 (4)
+Error in send () called by mpisx_sendx: Bad file descriptor
+[298] mpisx_sendx: left (abnormally) (rc=-1), sock = -1 len 0 (12)
+Error in send () called by mpisx_sendx: Bad file descriptor

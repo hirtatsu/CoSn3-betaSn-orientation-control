@@ -1,0 +1,25 @@
+{
+  "fmax_target": 0.001,
+  "fmax_final": 1.9545442496229914e-06,
+  "converged": true,
+  "n_steps": 4,
+  "n_atoms": 8,
+  "lattice": [
+    5.465249038384804,
+    5.465248969724421,
+    5.465248952667955
+  ],
+  "E_eV": -36.421029697019925,
+  "mu_Si_eV_per_atom": -4.552628712127491,
+  "wall_seconds": 0.39879536628723145,
+  "vs_loose_run": {
+    "loose_a_A": 5.4652,
+    "loose_mu_Si_eV": -4.5526,
+    "delta_a_A": 4.903838480352363e-05,
+    "delta_mu_meV": -0.02871212749067098
+  },
+  "vs_manuscript": {
+    "manuscript_a_A": 5.469,
+    "delta_a_A": -0.003750961615196502
+  }
+}

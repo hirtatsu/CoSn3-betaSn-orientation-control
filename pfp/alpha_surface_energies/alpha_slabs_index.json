@@ -1,0 +1,258 @@
+{
+  "(6, 0, 0)": {
+    "hkl_nominal": [
+      6,
+      0,
+      0
+    ],
+    "hkl_reduced": [
+      1,
+      0,
+      0
+    ],
+    "n_terminations": 3,
+    "gamma_ref_Table1": 0.46,
+    "terminations": [
+      {
+        "tag": "alpha_600_t0",
+        "termination_idx": 0,
+        "n_atoms": 32,
+        "lattice_a": 6.259422813060086,
+        "lattice_b": 6.250386974762543,
+        "lattice_c": 34.87097196961344,
+        "gamma_deg": 89.9999271898165,
+        "area_A2": 39.123814820250686,
+        "cif": "alpha_600_t0.cif"
+      },
+      {
+        "tag": "alpha_600_t1",
+        "termination_idx": 1,
+        "n_atoms": 32,
+        "lattice_a": 6.259422813060086,
+        "lattice_b": 6.250386974762543,
+        "lattice_c": 34.87097196961344,
+        "gamma_deg": 89.9999271898165,
+        "area_A2": 39.123814820250686,
+        "cif": "alpha_600_t1.cif"
+      },
+      {
+        "tag": "alpha_600_t2",
+        "termination_idx": 2,
+        "n_atoms": 32,
+        "lattice_a": 6.259422813060086,
+        "lattice_b": 6.250386974762543,
+        "lattice_c": 34.87097196961344,
+        "gamma_deg": 89.9999271898165,
+        "area_A2": 39.123814820250686,
+        "cif": "alpha_600_t2.cif"
+      }
+    ]
+  },
+  "(3, 1, 2)": {
+    "hkl_nominal": [
+      3,
+      1,
+      2
+    ],
+    "hkl_reduced": [
+      3,
+      1,
+      2
+    ],
+    "n_terminations": 4,
+    "gamma_ref_Table1": null,
+    "terminations": [
+      {
+        "tag": "alpha_312_t0",
+        "termination_idx": 0,
+        "n_atoms": 864,
+        "lattice_a": 25.62458998691247,
+        "lattice_b": 39.592822115609074,
+        "lattice_c": 49.678449418743476,
+        "gamma_deg": 53.18209901429636,
+        "area_A2": 812.1919624575535,
+        "cif": "alpha_312_t0.cif"
+      },
+      {
+        "tag": "alpha_312_t1",
+        "termination_idx": 1,
+        "n_atoms": 864,
+        "lattice_a": 25.62458998691247,
+        "lattice_b": 39.592822115609074,
+        "lattice_c": 49.678449418743476,
+        "gamma_deg": 53.18209901429636,
+        "area_A2": 812.1919624575535,
+        "cif": "alpha_312_t1.cif"
+      },
+      {
+        "tag": "alpha_312_t2",
+        "termination_idx": 2,
+        "n_atoms": 864,
+        "lattice_a": 25.62458998691247,
+        "lattice_b": 39.592822115609074,
+        "lattice_c": 49.678449418743476,
+        "gamma_deg": 53.18209901429636,
+        "area_A2": 812.1919624575535,
+        "cif": "alpha_312_t2.cif"
+      },
+      {
+        "tag": "alpha_312_t3",
+        "termination_idx": 3,
+        "n_atoms": 864,
+        "lattice_a": 25.62458998691247,
+        "lattice_b": 39.592822115609074,
+        "lattice_c": 49.678449418743476,
+        "gamma_deg": 53.18209901429636,
+        "area_A2": 812.1919624575535,
+        "cif": "alpha_312_t3.cif"
+      }
+    ]
+  },
+  "(0, 1, 0)": {
+    "hkl_nominal": [
+      0,
+      1,
+      0
+    ],
+    "hkl_reduced": [
+      0,
+      1,
+      0
+    ],
+    "n_terminations": 3,
+    "gamma_ref_Table1": 1.05,
+    "terminations": [
+      {
+        "tag": "alpha_010_t0",
+        "termination_idx": 0,
+        "n_atoms": 96,
+        "lattice_a": 17.43548598480672,
+        "lattice_b": 6.250386974762543,
+        "lattice_c": 37.55653687836051,
+        "gamma_deg": 90.00003684494506,
+        "area_A2": 108.97853449806829,
+        "cif": "alpha_010_t0.cif"
+      },
+      {
+        "tag": "alpha_010_t1",
+        "termination_idx": 1,
+        "n_atoms": 96,
+        "lattice_a": 17.43548598480672,
+        "lattice_b": 6.250386974762543,
+        "lattice_c": 37.55653687836051,
+        "gamma_deg": 90.00003684494506,
+        "area_A2": 108.97853449806829,
+        "cif": "alpha_010_t1.cif"
+      },
+      {
+        "tag": "alpha_010_t2",
+        "termination_idx": 2,
+        "n_atoms": 96,
+        "lattice_a": 17.43548598480672,
+        "lattice_b": 6.250386974762543,
+        "lattice_c": 37.55653687836051,
+        "gamma_deg": 90.00003684494506,
+        "area_A2": 108.97853449806829,
+        "cif": "alpha_010_t2.cif"
+      }
+    ]
+  },
+  "(3, 2, 1)": {
+    "hkl_nominal": [
+      3,
+      2,
+      1
+    ],
+    "hkl_reduced": [
+      3,
+      2,
+      1
+    ],
+    "n_terminations": 3,
+    "gamma_ref_Table1": 1.09,
+    "terminations": [
+      {
+        "tag": "alpha_321_t0",
+        "termination_idx": 0,
+        "n_atoms": 864,
+        "lattice_a": 39.60565870521054,
+        "lattice_b": 25.604738389934884,
+        "lattice_c": 49.678449418743476,
+        "gamma_deg": 53.1627429109485,
+        "area_A2": 811.6205203564367,
+        "cif": "alpha_321_t0.cif"
+      },
+      {
+        "tag": "alpha_321_t1",
+        "termination_idx": 1,
+        "n_atoms": 864,
+        "lattice_a": 39.60565870521054,
+        "lattice_b": 25.604738389934884,
+        "lattice_c": 49.678449418743476,
+        "gamma_deg": 53.1627429109485,
+        "area_A2": 811.6205203564367,
+        "cif": "alpha_321_t1.cif"
+      },
+      {
+        "tag": "alpha_321_t2",
+        "termination_idx": 2,
+        "n_atoms": 864,
+        "lattice_a": 39.60565870521054,
+        "lattice_b": 25.604738389934884,
+        "lattice_c": 49.678449418743476,
+        "gamma_deg": 53.1627429109485,
+        "area_A2": 811.6205203564367,
+        "cif": "alpha_321_t2.cif"
+      }
+    ]
+  },
+  "(3, 0, 1)": {
+    "hkl_nominal": [
+      3,
+      0,
+      1
+    ],
+    "hkl_reduced": [
+      3,
+      0,
+      1
+    ],
+    "n_terminations": 3,
+    "gamma_ref_Table1": 0.78,
+    "terminations": [
+      {
+        "tag": "alpha_301_t0",
+        "termination_idx": 0,
+        "n_atoms": 160,
+        "lattice_a": 6.259422813060086,
+        "lattice_b": 25.604738389934887,
+        "lattice_c": 42.907586300892206,
+        "gamma_deg": 89.99994221626204,
+        "area_A2": 160.2708836003123,
+        "cif": "alpha_301_t0.cif"
+      },
+      {
+        "tag": "alpha_301_t1",
+        "termination_idx": 1,
+        "n_atoms": 160,
+        "lattice_a": 6.259422813060086,
+        "lattice_b": 25.604738389934887,
+        "lattice_c": 42.907586300892206,
+        "gamma_deg": 89.99994221626204,
+        "area_A2": 160.2708836003123,
+        "cif": "alpha_301_t1.cif"
+      },
+      {
+        "tag": "alpha_301_t2",
+        "termination_idx": 2,
+        "n_atoms": 160,
+        "lattice_a": 6.259422813060086,
+        "lattice_b": 25.604738389934887,
+        "lattice_c": 42.907586300892206,
+        "gamma_deg": 89.99994221626204,
+        "area_A2": 160.2708836003123,
+        "cif": "alpha_301_t2.cif"
+      }
+    ]
+  }
+}

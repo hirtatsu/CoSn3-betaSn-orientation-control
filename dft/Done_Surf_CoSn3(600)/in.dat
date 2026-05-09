@@ -1,0 +1,81 @@
+System.CurrentDirectory  ./
+System.Name              test
+level.of.stdout          1
+level.of.fileout         1
+DATA.PATH                ../../DFT_DATA19
+
+scf.XcType                GGA-PBE
+scf.SpinPolarization      On
+scf.ElectronicTemperature 300.0
+scf.energycutoff          200.0
+scf.maxIter               100
+scf.EigenvalueSolver      band
+scf.Kgrid                 8 8 1
+scf.ProExpn.VNA           On
+scf.Mixing.Type           rmm-diisk
+scf.Init.Mixing.Weight    0.01
+scf.Min.Mixing.Weight     0.001
+scf.Max.Mixing.Weight     0.200
+scf.Mixing.History        15
+scf.Mixing.StartPulay     5
+scf.criterion             1.0e-7
+scf.lapack.dste           dstevx
+scf.Hubbard.U             Off
+scf.Hubbard.Occupation    dual
+
+MD.Type                     OptC5        # Nomd|Opt|DIIS|NVE|NVT_VS|NVT_NH
+MD.Opt.DIIS.History          7         # default=7
+MD.Opt.StartDIIS             5         # default=5
+MD.maxIter                  3000        # default=1
+MD.TimeStep                1.0         # default=0.5 (fs)
+MD.Opt.criterion          1.0e-3       # Tatsumi 2026 Acta Mater Eq.4 convention
+
+Atoms.Number             32
+Atoms.SpeciesAndCoordinates.Unit Ang
+<Atoms.SpeciesAndCoordinates
+    1   Co        3.1235044095       3.1201162863      20.3861863746    8.5    6.5
+    2   Co        6.2470047595       0.0000131220      20.3861883058    8.5    6.5
+    3   Co        3.1235040251       3.1201167845      23.0730553636    8.5    6.5
+    4   Co        6.2470084160       6.2402179995      23.0730533421    8.5    6.5
+    5   Co        0.0000064699       3.1201128793      11.7979181112    8.5    6.5
+    6   Co        3.1235040744       0.0000104259      11.7979204932    8.5    6.5
+    7   Co        0.0000053527       3.1201108748      14.4847855521    8.5    6.5
+    8   Co        3.1235082387       6.2402143501      14.4847831610    8.5    6.5
+    9   Sn        4.1647080597       1.0407752037      21.8223084014    7.0    7.0
+   10   Sn        2.0823034931       5.1994545152      21.8223087018    7.0    7.0
+   11   Sn        5.2058277323       4.1608571741      21.8223100471    7.0    7.0
+   12   Sn        1.0411830967       2.0793755549      21.8223082289    7.0    7.0
+   13   Sn        1.0412053354       1.0407730657      13.0486638219    7.0    7.0
+   14   Sn        5.2058060320       5.1994536688      13.0486626755    7.0    7.0
+   15   Sn        2.0823252169       4.1608519058      13.0486628806    7.0    7.0
+   16   Sn        4.1646853563       2.0793688669      13.0486613006    7.0    7.0
+   17   Sn        5.0694440253       1.9208585166      18.9137526164    7.0    7.0
+   18   Sn        1.1775666543       4.3193713432      18.9137518439    7.0    7.0
+   19   Sn        4.3010696038       5.0409607617      18.9137492392    7.0    7.0
+   20   Sn        1.9459426124       1.1992705503      18.9137482398    7.0    7.0
+   21   Sn        1.2787184826       4.4009628720      24.7420712748    7.0    7.0
+   22   Sn        4.9682914586       1.8392687309      24.7420721443    7.0    7.0
+   23   Sn        1.8447886691       1.2808593027      24.7420825676    7.0    7.0
+   24   Sn        4.4022208912       4.9593717104      24.7420827354    7.0    7.0
+   25   Sn        1.8447918540       1.8392645679      10.1288994278    7.0    7.0
+   26   Sn        4.4022223887       4.4009582992      10.1289004832    7.0    7.0
+   27   Sn        1.2787198639       4.9593663397      10.1288908942    7.0    7.0
+   28   Sn        4.9682926159       1.2808559708      10.1288893348    7.0    7.0
+   29   Sn        4.3010680901       4.3193705219      15.9572191921    7.0    7.0
+   30   Sn        1.9459434393       1.9208547227      15.9572197380    7.0    7.0
+   31   Sn        5.0694443166       1.1992681204      15.9572229860    7.0    7.0
+   32   Sn        1.1775667058       5.0409559193      15.9572218869    7.0    7.0
+Atoms.SpeciesAndCoordinates>
+
+Atoms.UnitVectors.Unit  Ang
+<Atoms.UnitVectors
+     6.247002742277     0.000000000000     0.000000000000
+     0.000004635892     6.240205170168     0.000000000000
+     0.000003980571     0.000022387789    34.870971969606
+Atoms.UnitVectors>
+
+Species.Number       2
+<Definition.of.Atomic.Species
+Co  Co6.0S-s2p3d2f1   Co_PBE19S
+Sn  Sn7.0-s2p2d3f1    Sn_PBE19
+Definition.of.Atomic.Species>

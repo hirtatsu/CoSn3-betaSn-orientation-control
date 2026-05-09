@@ -1,0 +1,69 @@
+{
+  "convention": "manuscript Table 2 epitaxial relations",
+  "substrate": "Si (Fd-3m, a=5.4310 \u00c5)",
+  "film": "\u03b1-CoSn3 (PFP-PBE relaxed, a=17.4355, b=6.2594, c=6.2504 \u00c5)",
+  "Si_bulk_input": "Si_bulk.cif",
+  "Si_free_slab": {
+    "file": "Si100_free_slab.cif",
+    "N": 24,
+    "a": 5.43096,
+    "c": 38.01672
+  },
+  "stack1_Si100_alpha600_1x1_1x1": {
+    "manuscript_disregistry": "Si<001>/\u03b1<001> 13.38%",
+    "ZSL_strain_a_pct": 15.09,
+    "ZSL_strain_b_pct": 15.25,
+    "stacks": [
+      {
+        "name": "Si100_alpha600_term0",
+        "termination": [
+          "Sn_P4/mbm_4",
+          "Si_P4/mmm_1"
+        ],
+        "N_total": 56,
+        "N_Si": 24,
+        "N_alpha": 32,
+        "a": 5.43096,
+        "b": 5.43096,
+        "c": 51.90729985753781,
+        "gamma_deg": 90.0
+      },
+      {
+        "name": "Si100_alpha600_term1",
+        "termination": [
+          "Co_P4/mmm_2",
+          "Si_P4/mmm_1"
+        ],
+        "N_total": 56,
+        "N_Si": 24,
+        "N_alpha": 32,
+        "a": 5.43096,
+        "b": 5.43096,
+        "c": 53.37667100558836,
+        "gamma_deg": 90.0
+      }
+    ]
+  },
+  "stack2_Si100_alpha312_rank2": {
+    "manuscript_disregistry_dir1": "Si 2\u00d71/\u03b1(312)<112> 0.99%",
+    "manuscript_disregistry_dir2": "Si 4\u00d71/\u03b1(312)<4183> 1.63%",
+    "ZSL_strain_a_pct": 2.8744799977056985,
+    "ZSL_strain_b_pct": -0.7994029646772924,
+    "stacks": [
+      {
+        "name": "Si100_alpha312_term0",
+        "termination": [
+          "Co2Sn3_P1_5",
+          "Si_P4/mmm_1"
+        ],
+        "N_total": 408,
+        "N_Si": 216,
+        "N_alpha": 192,
+        "a": 10.86192,
+        "b": 24.58971723490939,
+        "c": 51.35358026288651,
+        "gamma_deg": 83.6598082540901
+      }
+    ]
+  }
+}

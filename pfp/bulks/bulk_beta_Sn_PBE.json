@@ -1,0 +1,22 @@
+{
+  "name": "beta_Sn",
+  "n_atoms": 4,
+  "cell_lengths": [
+    5.929234508459512,
+    5.929234615614673,
+    3.200837085227615
+  ],
+  "cell_angles": [
+    90.00000052329888,
+    90.00000079688309,
+    89.99999985142844
+  ],
+  "volume": 112.52806039296902,
+  "volume_per_atom": 28.132015098242256,
+  "energy_eV": -12.46451934097636,
+  "energy_per_atom": -3.11612983524409,
+  "wall_seconds": 0.4809889793395996,
+  "calc_mode": "PBE",
+  "fmax_target": 0.001,
+  "optimizer": "BFGS+ExpCellFilter"
+}

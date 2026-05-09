@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Manuscript drafts (not redistributed publicly until accepted; kept locally)
+manuscript/
+
+# Heavy SQUID artefacts — preserved offline; will be archived on Zenodo
+# OpenMX MPI binary mistakenly copied into each run dir (~85 MB × 16)
+**/openmx_vec
+# OpenMX restart files (~250 MB per run)
+**/*_rst/
+# Charge density / wavefunction cubes (Phase2A/B/C, Phase3_CDD)
+*.cube
+# XSF charge-density-difference (large)
+*.xsf
+# Very large stdout logs (only the converged-result lines matter; full logs in Zenodo)
+**/log.txt
+
+# tmp folders / scratch
+tmp/
+*.tar.gz
+*.tar
+*.zip
+
+# Cache
+*.pkl
+.cache/

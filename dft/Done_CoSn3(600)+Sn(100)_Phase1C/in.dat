@@ -1,0 +1,75 @@
+System.CurrentDirectory  ./
+System.Name              test
+level.of.stdout          1
+level.of.fileout         1
+DATA.PATH                ../../DFT_DATA19
+
+scf.XcType                GGA-PBE
+scf.SpinPolarization      On
+scf.ElectronicTemperature 300.0
+scf.energycutoff          200.0
+scf.maxIter               100
+scf.EigenvalueSolver      band
+scf.Kgrid                 8 8 1
+scf.ProExpn.VNA           On
+scf.Mixing.Type           rmm-diisk
+scf.Init.Mixing.Weight    0.01
+scf.Min.Mixing.Weight     0.001
+scf.Max.Mixing.Weight     0.200
+scf.Mixing.History        15
+scf.Mixing.StartPulay     5
+scf.criterion             1.0e-7
+scf.lapack.dste           dstevx
+scf.Hubbard.U             Off
+scf.Hubbard.Occupation    dual
+
+MD.Type                     OptC5        # Nomd|Opt|DIIS|NVE|NVT_VS|NVT_NH
+MD.Opt.DIIS.History          7         # default=7
+MD.Opt.StartDIIS             5         # default=5
+MD.maxIter                  3000        # default=1
+MD.TimeStep                1.0         # default=0.5 (fs)
+MD.Opt.criterion          1.0e-3       # loosened from 3.0e-4 (β-Sn flat landscape; Acta Mater convention)
+
+Atoms.Number             24
+Atoms.SpeciesAndCoordinates.Unit Ang
+<Atoms.SpeciesAndCoordinates
+    1   Sn        2.9579477767       2.3964370056      45.1566183711    7.0    7.0
+    2   Sn        2.9579480320       5.5825027520      45.1566235314    7.0    7.0
+    3   Sn        0.0000048469       3.1791824413      45.1566227964    7.0    7.0
+    4   Sn        0.0000101446       6.3652499168      45.1566242339    7.0    7.0
+    5   Sn        0.0000015091       0.7460963168      48.0877362023    7.0    7.0
+    6   Sn        5.9158978090       3.9321641517      48.0877367307    7.0    7.0
+    7   Sn        2.9579483947       1.6434533647      48.0877403855    7.0    7.0
+    8   Sn        2.9579532571       4.8295220270      48.0877362343    7.0    7.0
+    9   Sn        2.9579486486       2.3826465513      39.2087004752    7.0    7.0
+   10   Sn        2.9579504219       5.5687137350      39.2087016727    7.0    7.0
+   11   Sn        0.0000041006       3.1929718926      39.2087013695    7.0    7.0
+   12   Sn        0.0000022399       0.0069049963      39.2087005908    7.0    7.0
+   13   Sn        5.9158957108       0.7896126969      42.1838285418    7.0    7.0
+   14   Sn        5.9158979729       3.9756797186      42.1838285206    7.0    7.0
+   15   Sn        2.9579500324       1.5999388887      42.1838314492    7.0    7.0
+   16   Sn        2.9579531212       4.7860057781      42.1838287689    7.0    7.0
+   17   Sn        2.9579492363       2.3391305617      33.3047931342    7.0    7.0
+   18   Sn        2.9579504732       5.5251975313      33.3047932754    7.0    7.0
+   19   Sn        0.0000034136       3.2364884239      33.3047935994    7.0    7.0
+   20   Sn        0.0000023177       0.0504206918      33.3047927829    7.0    7.0
+   21   Sn        5.9158945925       0.8034021819      36.2359066051    7.0    7.0
+   22   Sn        5.9158970209       3.9894697724      36.2359058186    7.0    7.0
+   23   Sn        2.9579510512       1.5861491014      36.2359059281    7.0    7.0
+   24   Sn        2.9579541980       4.7722159944      36.2359053953    7.0    7.0
+Atoms.SpeciesAndCoordinates>
+
+Atoms.UnitVectors.Unit  Ang
+<Atoms.UnitVectors
+     5.915895695117     0.000000000000     0.000000000000
+     0.000005475277     6.372134992516     0.000000000000
+     0.000000000000     0.000000000000    61.795246130000
+Atoms.UnitVectors>
+
+Species.Number       2
+<Definition.of.Atomic.Species
+Co  Co6.0S-s2p3d2f1   Co_PBE19S
+Sn  Sn7.0-s2p2d3f1    Sn_PBE19
+Definition.of.Atomic.Species>
+
+scf.restart    on

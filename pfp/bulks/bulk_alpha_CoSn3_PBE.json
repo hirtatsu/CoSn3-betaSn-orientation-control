@@ -1,0 +1,22 @@
+{
+  "name": "alpha_CoSn3",
+  "n_atoms": 32,
+  "cell_lengths": [
+    17.43548598480672,
+    6.259422813060086,
+    6.2503869747625425
+  ],
+  "cell_angles": [
+    89.9999271898165,
+    90.00003684494506,
+    90.0000065534179
+  ],
+  "volume": 682.1427249705089,
+  "volume_per_atom": 21.316960155328402,
+  "energy_eV": -118.81175405079593,
+  "energy_per_atom": -3.7128673140873727,
+  "wall_seconds": 3.2584660053253174,
+  "calc_mode": "PBE",
+  "fmax_target": 0.001,
+  "optimizer": "BFGS+ExpCellFilter"
+}
