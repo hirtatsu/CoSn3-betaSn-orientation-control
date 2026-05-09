@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-06",
-  "note": "DFT \u03b3 values for \u03b1-CoSn\u2083 surfaces. (600) and (010) converged; (301) provisional (still running on SQUID).",
+  "date": "2026-05-09",
+  "note": "DFT γ values for α-CoSn₃ surfaces (low-γ termination identified by PFP).",
   "mu_alpha_Ha_per_atom": -80.0642859625,
   "method": "OpenMX 3.9.9, GGA-PBE, OptC5, fmax = 1e-3 Ha/Bohr",
   "results": [
@@ -40,18 +40,18 @@
     },
     {
       "face": "(301)",
-      "status": "RUNNING (provisional)",
-      "MD_final": 162,
+      "status": "DONE",
+      "MD_final": 555,
       "N_atoms": 160,
-      "E_slab_Ha": -12809.705398,
-      "force_HaBohr": 0.003014,
-      "force_eVA": 0.1549860988146904,
+      "E_slab_Ha": -12809.7804183,
+      "force_HaBohr": 0.002598,
+      "force_eVA": 0.133593,
       "force_criterion_met": false,
-      "delta_E_Ha": 0.5803559999985737,
-      "delta_E_eV": 15.792291133377189,
-      "in_plane_area_A2": 160.6503486800459,
-      "in_plane_area_Bohr2": 573.6927268673044,
-      "gamma_Jm2": 0.7874979432705745,
+      "delta_E_Ha": 0.5053357,
+      "delta_E_eV": 13.750885,
+      "in_plane_area_A2": 160.776919,
+      "in_plane_area_Bohr2": 574.144802,
+      "gamma_Jm2": 0.685153,
       "gamma_PFP_Jm2": 0.66,
       "gamma_Ma2020_Jm2": 0.78
     }

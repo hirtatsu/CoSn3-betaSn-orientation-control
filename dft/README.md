@@ -8,7 +8,7 @@ Each subfolder corresponds to one SQUID job. Naming prefix indicates status:
 
 Top-level files:
 - **`wad_dft_result.json`** — derived analysis: W_ad,DFT for α(600)/β(100) interface (= 2.412 J/m²)
-- **`gamma_DFT.json`** — derived analysis: γ_DFT values for available surfaces (γ(600) = 0.545, γ(010) = 0.878 J/m²; γ(301) provisional pending convergence)
+- **`gamma_DFT.json`** — derived analysis: γ_DFT values for the surfaces evaluated (γ(600) = 0.545, γ(010) = 0.878, γ(301) = 0.685 J/m²)
 - **`Phase3_CDD/`** — derived charge-density-difference results (auxiliary, NOT used in the main paper after revision; only the JSON summary, the z-profile PNG, and the Fortran helpers are tracked in git — see "What is in git vs offline" below)
 
 ## What is in git vs offline
