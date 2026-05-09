@@ -76,7 +76,7 @@ Kept as historical record / partial data.
 
 | Item | Value |
 |---|---|
-| Code | OpenMX (PBE19 norm-conserving database) |
+| Code | OpenMX 3.9.9 (PBE19 norm-conserving database) |
 | XC functional | GGA-PBE |
 | Electronic temperature | 300 K |
 | Spin polarization | On (`scf.SpinPolarization` in `in.dat`; Co is magnetic) |

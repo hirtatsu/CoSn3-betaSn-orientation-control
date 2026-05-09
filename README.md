@@ -16,10 +16,10 @@ texture-control argument:
 - **PFP/PBE** (Preferred Potential v8 on the Matlantis platform) — primary
   evaluation of γ for four α-CoSn₃ low-index faces and W_ad for three
   α/β interface pairs and two Si/α interface pairs.
-- **DFT/PBE** (OpenMX, PBE19 norm-conserving pseudopotentials, on SQUID
-  @ The University of Osaka) — cross-validation of α(600)/β(100) work of
-  adhesion and α-CoSn₃(600),(010) surface energies; auxiliary charge-density-
-  difference (CDD) calculation.
+- **DFT/PBE** (OpenMX 3.9.9 with the PBE19 norm-conserving pseudopotential
+  database, on SQUID @ The University of Osaka) — cross-validation of
+  α(600)/β(100) work of adhesion and α-CoSn₃(600),(010) surface energies;
+  auxiliary charge-density-difference (CDD) calculation.
 
 ## Citation
 
@@ -115,7 +115,7 @@ template β-Sn.
   independently to their natural equilibria, the interface stack is cell-
   relaxed in-plane, and W_ad = (E_α + E_β − E_int) / A_int.
 
-### DFT (OpenMX/PBE on SQUID @ The University of Osaka)
+### DFT (OpenMX 3.9.9 / PBE on SQUID @ The University of Osaka)
 
 - GGA-PBE; norm-conserving pseudopotentials from the OpenMX PBE19 database
 - Pseudo-atomic-orbital basis: `Co_PBE19S` (Co: Co6.0S-s2p3d2f1) and
@@ -161,10 +161,10 @@ template β-Sn.
 - `pfp/scripts_master/22…25_si_alpha_*.py` — Si/α W_ad (Fig. 7, Table S3)
 - Requires Matlantis (Preferred Networks) account.
 
-### DFT (OpenMX on SQUID)
+### DFT (OpenMX 3.9.9 on SQUID)
 - Per-job inputs: `dft/<run>/in.dat` (and `dft/<run>/job_SQUID_vec.sh` job
   scripts, modify queue parameters for your site)
-- Pseudopotential database: OpenMX `DFT_DATA19` (PBE19; not redistributed)
+- Pseudopotential database: OpenMX 3.9.9 `DFT_DATA19` (PBE19; not redistributed)
 - Reference structures: `pfp/bulks/{alpha_CoSn3,beta_Sn,Si}_PBE.cif`
 
 ## Excluded heavy artefacts (preserved offline for future Zenodo archive)
