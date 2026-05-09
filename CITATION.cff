@@ -3,28 +3,10 @@ title: "Computational data — orientation control of β-Sn via α-CoSn₃ thin 
 message: "If you use these data, please cite the source paper (in preparation)."
 type: dataset
 authors:
-  - family-names: Wang
-    given-names: Xinjie
   - family-names: Tatsumi
     given-names: Hiroaki
     affiliation: "Joining and Welding Research Institute, The University of Osaka"
     email: tatsumi.jwri@osaka-u.ac.jp
-  - family-names: Li
-    given-names: Chia-Lin
-  - family-names: Yang
-    given-names: Fu-Chi
-  - family-names: He
-    given-names: Zhiyan
-  - family-names: Chen
-    given-names: I-En
-  - family-names: Kao
-    given-names: C. R.
-  - family-names: Chang
-    given-names: Li-Chun
-  - family-names: Lee
-    given-names: Jyh-Wei
-  - family-names: Nishikawa
-    given-names: Hiroshi
 abstract: >-
   Computational data package supporting the manuscript on crystallographic
   orientation control of β-Sn via preferentially oriented α-CoSn₃ thin films.
@@ -32,7 +14,10 @@ abstract: >-
   on (010), (301), (321), (600) planes; works of adhesion at α-CoSn₃ / β-Sn
   and Si / α-CoSn₃ interfaces; and DFT (OpenMX/PBE on SQUID) cross-validation
   for the α-CoSn₃ (600) / β-Sn (100) system, including bulk references and
-  a charge-density-difference auxiliary calculation.
+  a charge-density-difference auxiliary calculation. The computational data
+  and scripts in this repository were prepared by H. Tatsumi; the full
+  experimental–computational author list of the source paper is given
+  under preferred-citation below.
 license: MIT
 preferred-citation:
   type: article
