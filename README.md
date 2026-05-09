@@ -66,24 +66,16 @@ cosn3-betasn-paper-data/
 
 ### α-CoSn₃ surface energies (PFP/PBE; Table 1)
 
-| Plane | γ (J/m²) | Reference (Wang *et al.*) |
+| Plane | γ (J/m²) | Literature DFT (Ma; Wang *et al.*) |
 |---|---:|---:|
 | (600) | **0.46** | 0.46 |
 | (301) | 0.66    | 0.78 |
 | (321) | 0.73    | 1.09 |
 | (010) | 0.77    | 1.05 |
 
-DFT cross-check: γ(600) = 0.545 J/m², γ(010) = 0.878 J/m².
+DFT (this work) cross-check: γ(600) = 0.545 J/m², γ(010) = 0.878 J/m².
 
-### Works of adhesion (PFP/PBE; Fig. 9, Table S5)
-
-| Interface (α / β-Sn) | W_ad (J/m²) | DFT |
-|---|---:|---:|
-| α-CoSn₃(600) / β-Sn(100), c // substrate | **2.28** | 2.41 (≤ 6 % deviation) |
-| α-CoSn₃(600) / β-Sn(001), c ⊥ substrate  | 1.89 | — |
-| α-CoSn₃(312) / β-Sn(100)                 | 0.82 | — |
-
-### Si / α-CoSn₃ adhesion + lattice match (Fig. 6, 7; Table S6)
+### Si / α-CoSn₃ adhesion + lattice match (Fig. 6, 7; Table S3, S6)
 
 | Pair | W_ad (J/m²) | Disregistry (in-plane) |
 |---|---:|---|
@@ -94,6 +86,19 @@ These numbers explain the experimentally observed (600) → (312) texture
 switch as a transition from surface-energy minimization (DC-sputter, high
 adatom mobility) to substrate-interface-energy minimization (RF-sputter,
 low mobility).
+
+### Works of adhesion at α-CoSn₃ / β-Sn interfaces (PFP/PBE; Fig. 9, Table S5)
+
+| Interface (α / β-Sn) | W_ad (J/m²) | DFT |
+|---|---:|---:|
+| α-CoSn₃(600) / β-Sn(100), c // substrate | **2.28** | 2.41 (≤ 6 % deviation) |
+| α-CoSn₃(600) / β-Sn(001), c ⊥ substrate  | 1.89 | — |
+| α-CoSn₃(312) / β-Sn(100)                 | 0.82 | — |
+
+The high W_ad of α-CoSn₃(600) / β-Sn(100) explains the strong c-axis-parallel
+β-Sn templating observed by EBSD on (600)-textured films, and the low W_ad
+of α-CoSn₃(312) / β-Sn(100) explains why (312)-textured films fail to
+template β-Sn.
 
 ## Computational settings (summary)
 
