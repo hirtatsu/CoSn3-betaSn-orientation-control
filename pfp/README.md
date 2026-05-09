@@ -28,7 +28,7 @@ pfp/Si_alpha_Wad/wad_Si_alpha_PBE.json
 ## Computational procedure
 
 Bulk relaxation (ExpCellFilter, full cell + atoms, fmax = 0.001 eV/Å) →
-Slab generation (pymatgen SlabGenerator, full termination enumeration, vacuum ≥ 15 Å) →
+Slab generation (pymatgen SlabGenerator, full termination enumeration, vacuum ≈ 15 Å) →
 Slab cell relaxation (FrechetCellFilter mask=[T,T,F,F,F,T], fmax = 0.015 eV/Å) →
 γ or W_ad evaluation per Eq. 2/3 of main text.
 

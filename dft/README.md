@@ -46,18 +46,18 @@ Kept as historical record / partial data.
 
 | Item | Value |
 |---|---|
-| Code | OpenMX 3.9.9 |
+| Code | OpenMX (PBE19 norm-conserving database) |
 | XC functional | GGA-PBE |
-| Spin polarization | On |
-| Pseudopotentials | Co_PBE19S (15 valence, Soft), Sn_PBE19 (14 valence) |
-| PAO basis | Co6.0S-s2p3d2f1, Sn7.0-s2p2d3f1 |
-| Initial spin (Co UP/DOWN) | 8.5 / 6.5 (μ = 2 seed) |
-| Real-space grid cutoff | 200 Hartree |
+| Electronic temperature | 300 K |
+| Spin polarization | On (`scf.SpinPolarization` in `in.dat`; Co is magnetic) |
+| Pseudo-atomic-orbital basis | Co_PBE19S (Co: Co6.0S-s2p3d2f1), Sn_PBE19 (Sn: Sn7.0-s2p2d3f1) |
+| Initial spin seed (Co UP/DOWN) | 8.5 / 6.5 (μ ≈ 2) |
+| Real-space grid cutoff | 200 Ryd (per paper §S1.2) |
 | SCF criterion | 1.0 × 10⁻⁷ Hartree |
 | Force criterion | 1.0 × 10⁻³ Hartree/Bohr (≈ 0.05 eV/Å) |
-| MD type | OptC5 (cell + atoms simultaneous) |
-| k-grid | target Δk ≈ 0.15 rad/Å |
-| Walltime | 120 h (system max), 64 VEs × 5 cores / OMP 2 = 320 MPI |
+| Geometry optimisation | simultaneous cell + atomic relaxation (`MD.Type OptC5`) |
+| k-grid | target spacing Δk ≈ 0.15 rad/Å |
+| Walltime / parallelisation | 120 h (system max); 64 VEs × 5 cores, OMP 2 → 320 MPI |
 
 ## File contents (per directory)
 

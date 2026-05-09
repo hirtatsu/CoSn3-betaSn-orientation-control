@@ -16,9 +16,10 @@ texture-control argument:
 - **PFP/PBE** (Preferred Potential v8 on the Matlantis platform) — primary
   evaluation of γ for four α-CoSn₃ low-index faces and W_ad for three
   α/β interface pairs and two Si/α interface pairs.
-- **DFT/PBE** (OpenMX 3.9.9 on SQUID @ The University of Osaka) —
-  cross-validation of α(600)/β(100) work of adhesion and α-CoSn₃(600),(010)
-  surface energies; auxiliary charge-density-difference (CDD) calculation.
+- **DFT/PBE** (OpenMX, PBE19 norm-conserving pseudopotentials, on SQUID
+  @ The University of Osaka) — cross-validation of α(600)/β(100) work of
+  adhesion and α-CoSn₃(600),(010) surface energies; auxiliary charge-density-
+  difference (CDD) calculation.
 
 ## Citation
 
@@ -87,11 +88,11 @@ switch as a transition from surface-energy minimization (DC-sputter, high
 adatom mobility) to substrate-interface-energy minimization (RF-sputter,
 low mobility).
 
-### Works of adhesion at α-CoSn₃ / β-Sn interfaces (PFP/PBE; Fig. 9, Table S5)
+### Works of adhesion at α-CoSn₃ / β-Sn interfaces (PFP/PBE; Fig. 9, Table S4, Table S5)
 
 | Interface (α / β-Sn) | W_ad (J/m²) | DFT |
 |---|---:|---:|
-| α-CoSn₃(600) / β-Sn(100), c // substrate | **2.28** | 2.41 (≤ 6 % deviation) |
+| α-CoSn₃(600) / β-Sn(100), c // substrate | **2.28** | 2.41 (≤ 6 % deviation; Table S4) |
 | α-CoSn₃(600) / β-Sn(001), c ⊥ substrate  | 1.89 | — |
 | α-CoSn₃(312) / β-Sn(100)                 | 0.82 | — |
 
@@ -108,21 +109,23 @@ template β-Sn.
 - Bulk relax: ExpCellFilter (cell + atoms), BFGS, fmax = 0.001 eV/Å
 - Slab/interface relax: FrechetCellFilter mask = [T,T,F,F,F,T] (in-plane
   cell + atoms; vacuum dim fixed), fmax = 0.015 eV/Å
-- Vacuum ≥ 15 Å normal to slab; symmetric terminations
+- Vacuum ≈ 15 Å normal to slab; symmetric terminations
 - Recipe: paper-style W_ad following H. Tatsumi *et al.*, *Acta Mater.*
   **304**, 121813 (2026), Eq. 4 — α slab and β slab are each cell-relaxed
   independently to their natural equilibria, the interface stack is cell-
   relaxed in-plane, and W_ad = (E_α + E_β − E_int) / A_int.
 
-### DFT (OpenMX/PBE on SQUID @ Osaka U.)
+### DFT (OpenMX/PBE on SQUID @ The University of Osaka)
 
-- GGA-PBE, `scf.SpinPolarization on`
-- Pseudopotentials: `Co_PBE19S` (Co6.0S-s2p3d2f1, 15 valence Soft),
-  `Sn_PBE19` (Sn7.0-s2p2d3f1, 14 valence)
-- Energy cutoff 200 Hartree; SCF 1.0 × 10⁻⁷ Hartree
+- GGA-PBE; norm-conserving pseudopotentials from the OpenMX PBE19 database
+- Pseudo-atomic-orbital basis: `Co_PBE19S` (Co: Co6.0S-s2p3d2f1) and
+  `Sn_PBE19` (Sn: Sn7.0-s2p2d3f1)
+- Real-space grid cutoff: 200 Ryd; SCF convergence: 1.0 × 10⁻⁷ Hartree
 - Force criterion 1.0 × 10⁻³ Hartree/Bohr (≈ 0.05 eV/Å)
-- Geometry optimization: OptC5 (cell + atoms simultaneous)
-- k-grid: target Δk ≈ 0.15 rad/Å
+- Geometry optimisation: simultaneous cell + atomic relaxation
+  (`MD.Type OptC5` in `in.dat`)
+- k-point grid: target spacing Δk ≈ 0.15 rad/Å
+- Electronic temperature: 300 K
 
 ### Bulk lattice constants (Table S1)
 
@@ -158,10 +161,10 @@ template β-Sn.
 - `pfp/scripts_master/22…25_si_alpha_*.py` — Si/α W_ad (Fig. 7, Table S3)
 - Requires Matlantis (Preferred Networks) account.
 
-### DFT (OpenMX 3.9.9 on SQUID)
+### DFT (OpenMX on SQUID)
 - Per-job inputs: `dft/<run>/in.dat` (and `dft/<run>/job_SQUID_vec.sh` job
   scripts, modify queue parameters for your site)
-- Pseudopotential database: OpenMX 3.9.9 `DFT_DATA19` (not redistributed)
+- Pseudopotential database: OpenMX `DFT_DATA19` (PBE19; not redistributed)
 - Reference structures: `pfp/bulks/{alpha_CoSn3,beta_Sn,Si}_PBE.cif`
 
 ## Excluded heavy artefacts (preserved offline for future Zenodo archive)
