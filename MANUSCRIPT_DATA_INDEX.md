@@ -51,7 +51,7 @@ Structures (relaxed): `pfp/alpha_beta_Wad/stacks_relaxed/*_term*_interface_cellr
 - γ_PFP: `pfp/alpha_surface_energies/alpha_surfaces_cellrelax_PBE.json`
 - γ_DFT (600): `dft/Done_Surf_CoSn3(600)/test.ene` + `dft/Done_Bulk_CoSn3/test.ene` → **0.545 J/m²**
 - γ_DFT (010): `dft/Done_Surf_CoSn3(010)/test.ene` + `dft/Done_Bulk_CoSn3/test.ene` → **0.878 J/m²**
-- γ_DFT (301): see `dft/gamma_DFT.json` (`results[2]`, γ = 0.685 J/m²)
+- γ_DFT (301): `dft/Surf_CoSn3(301)/test.ene` + `dft/Done_Bulk_CoSn3/test.ene` → **0.787 J/m²** (optimization-plateau value, force criterion not met; see `dft/README.md` and `dft/gamma_DFT.json` `results[2]`)
 - All γ_DFT collected in `dft/gamma_DFT.json`
 - γ_Ref (Ma 2020 [26], Wang 2024 [27]): from cited literature
 

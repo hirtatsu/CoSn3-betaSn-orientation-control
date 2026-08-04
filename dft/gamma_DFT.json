@@ -40,20 +40,29 @@
     },
     {
       "face": "(301)",
-      "status": "DONE",
-      "MD_final": 555,
+      "status": "PLATEAU (force criterion not met)",
+      "MD_final": 554,
       "N_atoms": 160,
-      "E_slab_Ha": -12809.7804183,
-      "force_HaBohr": 0.002598,
-      "force_eVA": 0.133593,
+      "E_slab_Ha": -12809.705398,
+      "E_slab_definition": "MD=162 snapshot on the optimization plateau; value quoted in Supplementary Table S2",
+      "force_HaBohr": 0.003014,
+      "force_eVA": 0.1549860988146904,
       "force_criterion_met": false,
-      "delta_E_Ha": 0.5053357,
-      "delta_E_eV": 13.750885,
-      "in_plane_area_A2": 160.776919,
-      "in_plane_area_Bohr2": 574.144802,
-      "gamma_Jm2": 0.685153,
+      "delta_E_Ha": 0.5803559999985737,
+      "delta_E_eV": 15.792291133377189,
+      "in_plane_area_A2": 160.6503486800459,
+      "in_plane_area_Bohr2": 573.6927268673044,
+      "gamma_Jm2": 0.7874979432705745,
+      "gamma_plateau_mean_Jm2": 0.78,
+      "gamma_plateau_std_Jm2": 0.014,
+      "gamma_plateau_MD_range": [
+        300,
+        554
+      ],
       "gamma_PFP_Jm2": 0.66,
-      "gamma_Ma2020_Jm2": 0.78
+      "gamma_Ma2020_Jm2": 0.78,
+      "note": "OptC5 (job 601142) stalled on an energy plateau (gamma = 0.780 +/- 0.014 J/m2 over MD 300-554, outlier-filtered) without meeting the 1e-3 Ha/Bohr force criterion within the 120 h walltime. The last test.ene entry (MD 555) comes from the restart single-point job 612925 whose SCF did not converge (dUele = 0.71 Ha after 100 iterations); the gamma = 0.685 J/m2 previously listed here was derived from that invalid energy. Raw run files: dft/Surf_CoSn3(301)/."
     }
-  ]
+  ],
+  "revised": "2026-08-04"
 }

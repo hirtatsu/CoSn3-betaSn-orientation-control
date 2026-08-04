@@ -8,7 +8,7 @@ Each subfolder corresponds to one SQUID job. Naming prefix indicates status:
 
 Top-level files:
 - **`wad_dft_result.json`** — derived analysis: W_ad,DFT for α(600)/β(100) interface (= 2.412 J/m²)
-- **`gamma_DFT.json`** — derived analysis: γ_DFT values for the surfaces evaluated (γ(600) = 0.545, γ(010) = 0.878, γ(301) = 0.685 J/m²)
+- **`gamma_DFT.json`** — derived analysis: γ_DFT values for the surfaces evaluated (γ(600) = 0.545, γ(010) = 0.878, γ(301) = 0.787 J/m² — plateau value, see `Surf_CoSn3(301)` below)
 - **`Phase3_CDD/`** — derived charge-density-difference results (auxiliary, NOT used in the main paper after revision; only the JSON summary, the z-profile PNG, and the Fortran helpers are tracked in git — see "What is in git vs offline" below)
 
 ## What is in git vs offline
@@ -57,6 +57,12 @@ included in the future Zenodo deposit.
 | `Done_CoSn3(600)+Sn(100)_Phase2B/` | Phase2B | 32 | **Auxiliary** | A (α only) single-point SCF in interface supercell; produces `A.cube` (offline only) |
 | `Done_CoSn3(600)+Sn(100)_Phase2C/` | Phase2C | 24 | **Auxiliary** | B (β only) single-point SCF in interface supercell; produces `B.cube` (offline only) |
 | `Phase3_CDD/` | (post-processing) | — | **Auxiliary** | dAB.cube = ρ_AB − (ρ_A + ρ_B) computed from Phase2 cubes (offline only); see Phase3 section below |
+
+### Surf_CoSn3(301) (used in paper; plateau value, force criterion not met)
+
+| Folder | SQUID job | Atoms | Paper element | Notes |
+|---|---|---:|---|---|
+| `Surf_CoSn3(301)/` | Surf_CoSn3(301) | 160 | **Table S2** (γ_DFT = 0.787 J/m²) | (301) low-γ termination slab, OptC5 (job 601142). The optimization stalled on an energy plateau — γ = 0.780 ± 0.014 J/m² over MD 300–554 (outlier-filtered) — without reaching the 1.0 × 10⁻³ Ha/Bohr force criterion within the 120 h walltime; the quoted 0.787 J/m² is the MD 162 snapshot on this plateau. The final `test.ene` entry (MD 555) comes from the restart single-point job 612925 whose SCF did not converge (dUele = 0.71 Ha after 100 iterations) and must not be used; a γ = 0.685 J/m² formerly listed in `gamma_DFT.json` was derived from that invalid energy. |
 
 ### Stop_* (cancelled, not used in paper)
 
