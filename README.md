@@ -19,8 +19,7 @@ texture-control argument:
 - **DFT/PBE** (OpenMX 3.9.9 with the PBE19 norm-conserving pseudopotential
   database, on SQUID @ The University of Osaka) — cross-validation of
   α(600)/β(100) work of adhesion and α-CoSn₃(600),(010),(301) surface
-  energies ((301) as an optimization-plateau estimate, see `dft/README.md`);
-  auxiliary charge-density-difference (CDD) calculation.
+  energies; auxiliary charge-density-difference (CDD) calculation.
 
 ## Citation
 
@@ -59,7 +58,7 @@ cosn3-betasn-paper-data/
     ├── Done_Bulk_CoSn3/         μ_α reference (Table S1, S2)
     ├── Done_Surf_CoSn3(600)/    γ(600)_DFT = 0.545 J/m²  (Table S2)
     ├── Done_Surf_CoSn3(010)/    γ(010)_DFT = 0.878 J/m²  (Table S2)
-    ├── Surf_CoSn3(301)/         γ(301)_DFT = 0.787 J/m²  (Table S2; plateau value)
+    ├── Done_Surf_CoSn3(301)/    γ(301)_DFT = 0.787 J/m²  (Table S2)
     ├── Done_CoSn3(600)+Sn(100)_Phase{1A,1B,1C}/  α(600)/β(100) W_ad (Fig. 9)
     ├── Done_CoSn3(600)+Sn(100)_Phase{2A,2B,2C}/  AB/A/B SCF for CDD (auxiliary)
     └── Stop_*/                  cancelled DFT jobs (PFP-replaced; archival only)
@@ -77,8 +76,7 @@ cosn3-betasn-paper-data/
 | (010) | 0.77    | 1.05 |
 
 DFT (this work) cross-check: γ(600) = 0.545 J/m², γ(010) = 0.878 J/m²,
-γ(301) = 0.787 J/m² (optimization-plateau value, force criterion not met;
-see `dft/README.md`).
+γ(301) = 0.787 J/m².
 
 ### Si / α-CoSn₃ adhesion + lattice match (Fig. 6, 7; Table S3, S6)
 

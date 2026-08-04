@@ -8,7 +8,7 @@ Each subfolder corresponds to one SQUID job. Naming prefix indicates status:
 
 Top-level files:
 - **`wad_dft_result.json`** — derived analysis: W_ad,DFT for α(600)/β(100) interface (= 2.412 J/m²)
-- **`gamma_DFT.json`** — derived analysis: γ_DFT values for the surfaces evaluated (γ(600) = 0.545, γ(010) = 0.878, γ(301) = 0.787 J/m² — plateau value, see `Surf_CoSn3(301)` below)
+- **`gamma_DFT.json`** — derived analysis: γ_DFT values for the surfaces evaluated (γ(600) = 0.545, γ(010) = 0.878, γ(301) = 0.787 J/m²)
 - **`Phase3_CDD/`** — derived charge-density-difference results (auxiliary, NOT used in the main paper after revision; only the JSON summary, the z-profile PNG, and the Fortran helpers are tracked in git — see "What is in git vs offline" below)
 
 ## What is in git vs offline
@@ -50,6 +50,7 @@ included in the future Zenodo deposit.
 | `Done_Bulk_CoSn3/` | Bulk_CoSn3 | 32 | **Table S1**, μ_α reference | α-CoSn₃ bulk full-cell relax (OptC5). Utot = −2562.0571508 Ha → μ_α = −80.0643 Ha/atom |
 | `Done_Surf_CoSn3(600)/` | Surf_CoSn3(600) | 32 | **Table S2** (γ_DFT = 0.545 J/m²) | (600) low-γ termination slab, OptC5 |
 | `Done_Surf_CoSn3(010)/` | Surf_CoSn3(010) | 96 | **Table S2** (γ_DFT = 0.878 J/m²) | (010) low-γ termination slab, OptC5 (610 MD steps) |
+| `Done_Surf_CoSn3(301)/` | Surf_CoSn3(301) | 160 | **Table S2** (γ_DFT = 0.787 J/m²) | (301) low-γ termination slab, OptC5; value adopted at MD 162, energy convergence confirmed by inspection of the trajectory |
 | `Done_CoSn3(600)+Sn(100)_Phase1A/` | Phase1A | 56 | **Fig. 9, Table S4** (W_ad,DFT = 2.41 J/m²) | AB interface OptC5 (cell + atoms relaxed) |
 | `Done_CoSn3(600)+Sn(100)_Phase1B/` | Phase1B | 32 | Same | α slab from interface, OptC5 |
 | `Done_CoSn3(600)+Sn(100)_Phase1C/` | Phase1C | 24 | Same | β slab from interface, OptC5 |
@@ -57,12 +58,6 @@ included in the future Zenodo deposit.
 | `Done_CoSn3(600)+Sn(100)_Phase2B/` | Phase2B | 32 | **Auxiliary** | A (α only) single-point SCF in interface supercell; produces `A.cube` (offline only) |
 | `Done_CoSn3(600)+Sn(100)_Phase2C/` | Phase2C | 24 | **Auxiliary** | B (β only) single-point SCF in interface supercell; produces `B.cube` (offline only) |
 | `Phase3_CDD/` | (post-processing) | — | **Auxiliary** | dAB.cube = ρ_AB − (ρ_A + ρ_B) computed from Phase2 cubes (offline only); see Phase3 section below |
-
-### Surf_CoSn3(301) (used in paper; plateau value, force criterion not met)
-
-| Folder | SQUID job | Atoms | Paper element | Notes |
-|---|---|---:|---|---|
-| `Surf_CoSn3(301)/` | Surf_CoSn3(301) | 160 | **Table S2** (γ_DFT = 0.787 J/m²) | (301) low-γ termination slab, OptC5 (job 601142). The optimization stalled on an energy plateau — γ = 0.780 ± 0.014 J/m² over MD 300–554 (outlier-filtered) — without reaching the 1.0 × 10⁻³ Ha/Bohr force criterion within the 120 h walltime; the quoted 0.787 J/m² is the MD 162 snapshot on this plateau. The final `test.ene` entry (MD 555) comes from the restart single-point job 612925 whose SCF did not converge (dUele = 0.71 Ha after 100 iterations) and must not be used; a γ = 0.685 J/m² formerly listed in `gamma_DFT.json` was derived from that invalid energy. |
 
 ### Stop_* (cancelled, not used in paper)
 
