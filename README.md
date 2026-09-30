@@ -7,7 +7,7 @@ Companion data and code repository for:
 > X. Wang, H. Tatsumi, C.-L. Li, F.-C. Yang, Z. He, I-E. Chen, C. R. Kao,
 > L.-C. Chang, J.-W. Lee, H. Nishikawa.
 > *Crystallographic orientation control of β-Sn via preferentially oriented
-> α-CoSn₃ thin films*. **Manuscript in preparation, 2026**.
+> α-CoSn₃ thin films*. **Under review on Applied Surface Science Advances, 2026**.
 
 This repository contains every input, output, and analysis script required
 to reproduce the surface-energy and work-of-adhesion calculations behind the
@@ -27,7 +27,7 @@ texture-control argument:
 X. Wang, H. Tatsumi, C.-L. Li, F.-C. Yang, Z. He, I-E. Chen, C. R. Kao,
 L.-C. Chang, J.-W. Lee, H. Nishikawa.
 "Crystallographic orientation control of β-Sn via preferentially oriented
-α-CoSn₃ thin films". (2026, manuscript in preparation).
+α-CoSn₃ thin films". (2026, Under review on Applied Surface Science Advances).
 ```
 
 A Zenodo DOI will be added on first stable release.
@@ -134,7 +134,7 @@ template β-Sn.
 | Phase | PFP a, b, c (Å) | DFT a, b, c (Å) | Exp a, b, c (Å) |
 |---|---|---|---|
 | α-CoSn₃ | 17.436, 6.259, 6.250 | 17.207, 6.338, 6.349 | 16.864, 6.268, 6.270 |
-| β-Sn    | 5.929, 5.929, 3.201  | 5.930, 5.930, 3.201  | 5.831, 5.831, 3.182 |
+| β-Sn    | 5.929, 5.929, 3.201  | 5.970, 5.970, 3.218  | 5.831, 5.831, 3.182 |
 | Si      | 5.465, 5.465, 5.465  | —                    | 5.431, 5.431, 5.431 |
 
 ## How to navigate
